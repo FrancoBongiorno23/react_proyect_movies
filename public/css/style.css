@@ -7305,18 +7305,7 @@ p.ceb-single {
     padding-right: 0;
   }
 }
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #020d18;
-  /* change if the mask should have another color then white */
-  z-index: 99999;
-  text-align: center;
-  /* makes sure it stays on top */
-}
+
 #preloader img {
   margin-top: 100px;
 }
@@ -7828,7 +7817,7 @@ header .navbar-default .flex-parent {
 @media (min-width: 992px) {
   header .navbar-default .flex-parent {
     display: flex !important;
-    jutify-content: flex-start;
+    justify-content: flex-start;
   }
 }
 header .navbar-default .flex-parent .menu-left {
