@@ -14,5 +14,5 @@ export default function Pelicula(props) {
             <p>Reparto {props.reparto}</p>
         </div>
     </div>
-    )
-} 
+    );
+};

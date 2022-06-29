@@ -1,5 +1,6 @@
 export default function PageWrapper(props) {
-    return(    <div>
+    return(   
+    <div>
         <div className="login-wrapper" id="login-content">
             <div className="login-content">
                 <a href="#" className="close">x</a>
@@ -216,17 +217,8 @@ export default function PageWrapper(props) {
                             <a href="movielist.html" className="list"><i className="ion-ios-list-outline active"></i></a>
                             <a  href="moviegrid.html" className="grid"><i className="ion-grid"></i></a>
                         </div>
-        
-        
-                        <Pelicula titulo="Oblivion (2012)" calificacion="8.1"  duracion="Run Time: 2h21’" clasificacion="MMPA: PG-13" 
-                        lanzamiento="1 May 2015" director="Joss Whedon" reparto="Robert Downey Jr, Chris Evans, Chris Hemsworth" img="images/uploads/mv1.jpg">
-                            Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...
-                        </Pelicula>
-        
-                        <Pelicula titulo="into the wild (2014)" calificacion="7.8"  duracion="Run Time: 2h21’" clasificacion="MMPA: PG-13" 
-                        lanzamiento="1 May 2015" director="Anthony Russo" reparto="Chris Evans, Samuel L. Jackson, Scarlett Johansson" img="images/uploads/mv2.jpg">
-                            As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat...
-                        </Pelicula>
+
+                        {props.children}
         
                 
                         <div className="movie-item-style-2">
